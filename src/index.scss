@@ -53,3 +53,17 @@ body {
 .cursor {
   color: #fff;
 }
+
+.texture-select {
+  transform: scale(5);
+}
+
+.texture-select img.active {
+  border: 2px solid red;
+}
+
+.menu {
+  top: 10px;
+  left: 10px;
+  display: flex;
+}

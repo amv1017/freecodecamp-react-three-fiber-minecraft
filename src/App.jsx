@@ -6,6 +6,8 @@ import Ground from './components/Ground.jsx'
 import Player from './components/Player.jsx'
 import FPV from './components/FPV.jsx'
 import Cubes from './components/Cubes.jsx'
+import TextureSelector from './components/TextureSelector.jsx'
+import Menu from './components/Menu.jsx'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         </Physics>
       </Canvas>
       <div className="absolute centered cursor">+</div>
+      <TextureSelector />
+      <Menu />
     </>
   )
 }
