@@ -34,10 +34,10 @@ export const useKeyboard = () => {
     const action = actionByKey(e.code)
     if (action) {
       setActions((prev) => {
-        return ({
+        return {
           ...prev,
           [action]: true,
-        })
+        }
       })
     }
   }, [])
@@ -46,10 +46,10 @@ export const useKeyboard = () => {
     const action = actionByKey(e.code)
     if (action) {
       setActions((prev) => {
-        return ({
+        return {
           ...prev,
           [action]: false,
-        })
+        }
       })
     }
   }, [])
